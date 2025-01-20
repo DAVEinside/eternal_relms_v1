@@ -1,0 +1,82 @@
+# ---- General ----
+*.DS_Store
+*.env
+*.log
+!.gitkeep
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+temp/
+*.tmp
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# ---- Python ----
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+*.sqlite3
+*.db
+
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log
+.eslintcache
+.parcel-cache/
+.husky/_/
+.next/
+.nuxt/
+.svelte-kit/
+
+# ---- Frontend Frameworks ----
+# React
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.module.scss.d.ts
+*.module.css.d.ts
+*.module.sass.d.ts
+
+# Angular
+.angular/
+*.d.ts
+.angular-cli.json
+aot/
+
+# Vue
+*.vuepress
+.vuepress/
+.vuepress-cache/
+
+# ---- Docker ----
+*.pid
+docker-compose.override.yml
+
+# ---- Logs ----
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- Testing ----
+*.coverage
+.nyc_output/
+.jest/
+jest-cache/
+jest-html-reporters-*.html
